@@ -1,0 +1,202 @@
+.logobandera{
+    width: 220px;
+    display: block;
+    position: relative;
+    border: double blue 2px;
+    
+
+}
+
+.disposicion{
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+
+
+
+header h1{
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    
+    
+
+  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(252, 245, 236);
+    border: blue solid 3px;
+    padding: 20px;
+    background-image: url(IMG/cuadriculado.jpg);
+
+
+}
+ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    margin: 7px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:fantasy;
+    padding: 10px;
+    display: inline-block;
+    border: solid 1px blue;
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.466);
+
+
+}
+
+li a:hover{
+
+    border: solid blue 2px;
+    box-shadow: 4px 5px 0px ;
+    color: rgb(25, 0, 255);
+    background-color: aliceblue;
+   
+}
+
+
+
+.tituloinfo{
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    background-color: rgba(198, 220, 240, 0.637);
+    margin:10px 0px;
+    padding: 10px 0px;
+}
+
+
+section div h2{
+    text-align: center;
+}
+
+body{
+    background-image: url(IMG/fondo.webp);
+    background-position: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+section div{
+
+width: 50%;
+margin: auto;
+border: 1px solid black;
+border-radius: 5px;
+background-color: rgba(231, 186, 186, 0.479);
+padding: 15px 20px;
+text-align: center;
+
+
+
+}
+
+section div h3{
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+section div p{
+
+    font-size: 21px;
+    
+}
+
+section div iframe{
+    position: relative;
+    display: flex;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 0px;
+    color: black;
+}
+
+
+
+
+
+.video{
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+
+footer div a img{
+    width: 50px;
+    
+}
+
+footer div a img:hover{
+    transform: scale(1.2);
+}
+
+
+footer div h2{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+footer{
+    border-top: solid black 3px;
+    background-color: rgba(240, 248, 255, 0.205) ;
+    padding-top: 20px;
+}
+
+
+
+.logito {
+ width: 100px;
+ position: fixed;
+right: 150px;
+bottom: 40px;
+}
+
+.logito:hover{
+
+    transform: scale(1.3);
+    
+}
